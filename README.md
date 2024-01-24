@@ -1,5 +1,6 @@
 # vrspace-server-springboot
 Reuse VRSpace server and extend, disable, replace components.
+Main repo: https://github.com/jalmasi/vrspace
 
 This example project shows how to:
 - use VRSpace maven artifact from maven central (pom.xml)
@@ -14,7 +15,9 @@ VRSpace part of it is in MyClientFactory.java, that
 - extends ClientFactory interface
 - does not implement createGuestClient, thus disables anonymous access
 - implements findClient that requires user to be logged in
-and application.properties, that
+
+and in application.properties, that
+
 - enables use of MyClientFactory
 - disables use of built-in Oauth2 authentication
 
