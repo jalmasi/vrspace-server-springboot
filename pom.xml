@@ -50,7 +50,7 @@
     <dependency>
       <groupId>org.vrspace</groupId>
       <artifactId>server</artifactId>
-      <version>0.7.2</version>
+      <version>0.7.9</version>
     </dependency>
   </dependencies>
 

@@ -29,4 +29,4 @@ A real-life scenario - I want only registered users allowed.
 - copy this sausage to VM arguments of program run configuration: --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/sun.net.www.protocol.http=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED
 - start ExampleServerApplication as spring boot app
 - access http://localhost:8080/ with TWO browsers
-- log in as user1/pass1 in first, and user2/pass2 in second browser
+- log in as user1/pass1 in first, and user2/pass2 in second browser, move with arrows, rotate with mouse drag
